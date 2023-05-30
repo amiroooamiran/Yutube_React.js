@@ -2,12 +2,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// import Components
+import Navigation from "./components/Navigation";
+
 // import statics
 import './static/index.css';
 
-// omponents
+// Cmponents
 function Amiran(){
-  return <h1>Welcome to my site</h1>
+  return (
+    <div>
+      <h1>Welcome to my site</h1>
+      <Navigation />
+    </div>
+  )
 }
 
 // Root

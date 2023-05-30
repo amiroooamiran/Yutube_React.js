@@ -1,3 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    color: white;
     background-color: #333;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation */
+.main-navigation{
+    border-top: 1px solid white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navigation ul{
+    margin-right: 30px;
+}
+.main-navigation ul li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
 }
