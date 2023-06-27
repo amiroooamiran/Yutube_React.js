@@ -11,9 +11,9 @@ function Cards() {
         <img src={BMWImage} alt='card-product-image' />
         <h4>Title</h4>
         <p>This DICE for Product</p>
-        <button>See more Product</button>
+        <button>See more Product <i class="uil uil-eye"></i></button>
         <br />
-        <button>add to card</button>
+        <button>add to card <i class="uil uil-shop"></i> </button>
     </div>
   )
 }
