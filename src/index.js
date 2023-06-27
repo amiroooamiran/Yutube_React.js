@@ -5,7 +5,8 @@ import ReactDOM from "react-dom/client";
 // import Components
 import Navigation from "./components/Navigation";
 import Slider from "./components/Slider";
-import Cards from "./components/Cards";
+import CarCards from "./components/Cards";
+import CarData from "./data/CarData";
 // import statics
 import './static/index.css';
 
@@ -17,10 +18,13 @@ function Amiran(){
       <Navigation />
       <Slider />
       <div className="cards_main">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
+        {
+          CarData.map((cars) =>{
+            return(
+              <CarCards cars={cars} />
+            )
+          })
+        }
       </div>
     </div>
   )
