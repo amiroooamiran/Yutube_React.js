@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 
 // import Components
 import Navigation from "./components/Navigation";
+import Slider from "./components/Slider";
 
 // import statics
 import './static/index.css';
@@ -14,6 +15,7 @@ function Amiran(){
     <div>
       <h1>Welcome to my site</h1>
       <Navigation />
+      <Slider />
     </div>
   )
 }
