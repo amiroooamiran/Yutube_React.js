@@ -6,6 +6,7 @@
 body{
     color: white;
     background-color: #333;
+    padding: 10px;
 }
 
 h1{
@@ -29,4 +30,11 @@ h1{
     display: inline;
     padding: 5px;
     margin: 5px;
+}
+
+.Slider{
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
